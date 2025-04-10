@@ -122,19 +122,21 @@
         justify-content: center;
         align-items: center;
         background-color: antiquewhite;
-        height: 30px;
-        width: 140px;
+        height: 40px;
+        width: 240px;
         border-radius: 20px;
         background-color: #fbfbfb;
-        padding-bottom: 1px;
-        padding-right: 1px;
+        padding-bottom: 1.5px;
+        padding-right: 1.5px;
     }
 
     .boton a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         height: 100%;
-        text-align: center;
-        border: 2px solid #fbfbfb;
+        border: 3px solid #fbfbfb;
         border-radius: 20px;
         text-decoration: none;
         color: #fbfbfb;
@@ -142,7 +144,7 @@
         font-family: "Kanit", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .barra {
