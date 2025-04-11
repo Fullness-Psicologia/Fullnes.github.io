@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 @media (max-width: 600px) {
     * {
         margin: 0;
@@ -9,9 +8,12 @@
     }
 
     body {
-        width: 100%;
-        height: 100vh;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: auto;
         background: #003f6e;
+        overflow-x: hidden;
     }
 
     .volver {
@@ -26,14 +28,16 @@
     }
 
     .container {
-        width: 100%;
+        width: 100vw;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-        margin-top: 50px;
-        padding-bottom: 20px;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 10px;
         background-color: #1e4f75;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
 
     .container h1 {
@@ -42,23 +46,18 @@
         text-align: center;
         margin-top: 20px;
         font-size: 15px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .container1 img {
-        width: 80%;
+        width: 100%;
+        max-width: 100%;
     }
 
     .container p {
         font-family: 'Roboto', sans-serif;
         color: #fff;
         text-align: justify;
-        padding-left: 10px;
-        padding-right: 10px;
         margin-top: 20px;
-        
         font-size: 11px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .container1 {
@@ -70,7 +69,12 @@
         margin-top: 20px;
     }
 
+    .container1 img {
+        width: 80%;
+    }
+
     .barra {
+        width: 100%;
         height: 50px;
     }
 }
