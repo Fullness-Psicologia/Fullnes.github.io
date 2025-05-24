@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    body {
+        height: 100%;
+        width: 100%;
+        background: url(../img/grafica\ complementaria\ copia_Mesa\ de\ trabajo\ 1.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .imagen {
+        display: flex;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .containers {
+        display: flex;
+        width: 100%;
+        height: 742px;
+        background: transparent;
+        margin-top: 150px;
+    }
+    
+    .container1 {
+        border-radius: 10px;
+        margin-right: 25px;
+        margin-left: 50px;
+    }
+    
+    .container2 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-right: 50px;
+        margin-left: 25px;
+        align-items: center;
+    }
+    
+    .textos {
+        display: flex;
+        background: #8bc092;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        border-radius: 10px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+    .textos h1 {
+        text-transform: uppercase;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #fbfbfb;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .texto p {
+        color: #fbfbfb;
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: justify;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .boton {
+        display: flex;
+        position: relative;
+        top: 140px;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        border-radius: 20px;
+        padding-right: 2px;
+        padding-bottom: 2px;
+        background-color: #8bc092;
+    }
+    
+    .container2 a{
+        width: 100%;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border-color: #8bc092;
+        border-style: solid;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        background-color: #fbfbfb;
+        font-style: normal;
+        color: #8bc092;
+        text-transform: uppercase;
+    }
+    
+    .boton:hover {
+        background: #92d0fd;
+    }
+    
+    .container2 a:hover {
+        border-color: #92d0fd;
+    }
+
+    .pie-pagina {
+        margin-top: 0;
+    }
+}

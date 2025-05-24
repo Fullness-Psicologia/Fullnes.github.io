@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    body {
+        height: 100%;
+        width: 100%;
+        background: url(../img/grafica\ complementaria\ copia_Mesa\ de\ trabajo\ 1.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .imagen {
+        display: flex;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: transparent;
+        margin-top: 150px;
+    }
+
+    .container .titulo {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #8bc092;
+        text-align: center;
+    }
+
+    .psicologos {
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .psicologos ul {
+        width: 100%;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 50px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px;   
+    }
+
+    .psicologos ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: #fbfbfb;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 100%;
+    }
+
+    .psicologos li  h1 {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #8bc092;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .psicologos li button {
+        background-color: #8bc092;
+        border: none;
+        width: 100px;
+        height: 20px;
+        border-radius: 10px;
+        color: #fbfbfb;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .psicologos .informacion {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        background-color: #fbfbfb;
+        width: 350px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .informacion img {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .informacion button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .informacion p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #000;
+        text-align: justify;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .psicologos ul li img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}
