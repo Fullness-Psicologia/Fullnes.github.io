@@ -11,6 +11,13 @@
         position: relative;
     }
 
+    .pie-pagina .Copy {
+        position: absolute;
+        text-align: center;
+        bottom: 2px;
+        font-size: 12px;
+    }
+
     .pie-pagina .logo {
         position: absolute;
         width: 100px;

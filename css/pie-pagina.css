@@ -6,11 +6,20 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        margin-top: 150px;
         background-color: #8bc092;
+        height: 330px;
         padding: 20px;
         padding-left: 100px;
         padding-right: 100px;
+        position: relative;
+    }
+
+    .pie-pagina .Copy {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 2px;
+        font-size: 12px;
     }
 
     .pie-pagina img {
